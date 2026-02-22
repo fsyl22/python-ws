@@ -16,13 +16,13 @@ Telegram交流反馈群组：https://t.me/eooceu
   | 变量名        | 是否必须 | 默认值 | 备注 |
   | ------------ | ------ | ------ | ------ |
   | UUID         | 否 |5efabea4-f6d4-91fd-b8f0-17e004c89c60| 开启了哪吒v1,请修改UUID|
-  | PORT         | 否 |  3000  |  监听端口                    |
+  | PORT         | 否 |  3000  |  节点监听端口,默认自动获取分配的端口                  |
   | NEZHA_SERVER | 否 |        |哪吒v1填写形式：nz.abc.com:8008   哪吒v0填写形式：nz.abc.com|
   | NEZHA_PORT   | 否 |        | 哪吒v1没有此变量，v0的agent端口| 
   | NEZHA_KEY    | 否 |        | 哪吒v1的NZ_CLIENT_SECRET或v0的agent端口 |
-  | NAME         | 否 |        | 节点名称前缀，例如：Glitch |
+  | NAME         | 否 |        | 节点名称前缀，例如：koyeb |
   | DOMAIN       | 是 |        | 项目分配的域名或已反代的域名，不包括https://前缀  |
-  | SUB_PATH     | 否 |  sub   | 订阅路径   |
+  | SUB_PATH     | 否 |  sub   | 订阅token    |
   | AUTO_ACCESS  | 否 |  false | 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量 |
   | DEBUG        | 否 |  false | 调试模式，默认关闭，true开启                   |
 
